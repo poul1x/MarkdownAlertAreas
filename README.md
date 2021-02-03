@@ -26,7 +26,3 @@ See alert areas in `out.md`.
 ## Want to change styles?
 
 All styles are stored as `dict` in script file. Change them as you want
-
-## It's a dirty hack!
-
-I know but I just wanted alert areas rendering in Typora
