@@ -23,7 +23,7 @@ class AlertStyler:
         # 'font-size': '85%',
         'background-color': 'rgba( 0, 0, 0, .04 )',
         'border-radius': '3px',
-        'border': 0
+        'border': '0',
     }
 
     def get_alert_area_style(self):
