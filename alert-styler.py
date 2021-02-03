@@ -119,7 +119,6 @@ def convert_to_html(content, styler):
 
     return f'<div style="{alert_style}">{html}</div>'
 
-from time import sleep
 
 def main(filename_in, filename_out):
 
