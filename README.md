@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/demo.jpg" width="70%"/>
+  <img src="/demo.jpg" width="80%"/>
 </p>
 
 ## Brief
@@ -17,6 +17,16 @@ python3 alert-styler.py in.md out.md
 And voila!
 See alert areas in `out.md`.
 
+## Tested on
+
+- Typora
+- Hackmd
+- Other editors which support embedding html
+
 ## Want to change styles?
 
 All styles are stored as `dict` in script file. Change them as you want
+
+## It's a dirty hack!
+
+I know but I just wanted alert areas rendering in Typora
