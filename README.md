@@ -1,4 +1,6 @@
-![Demo](/demo.PNG)
+<p align="center">
+  <img src="/demo.PNG" width="70%"/>
+</p>
 
 ## Brief
 
