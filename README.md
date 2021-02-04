@@ -5,7 +5,7 @@
 ## Brief
 
 I like writing markdown. But many editors lack some features like HackMD alert areas.
-So, I've written a little script which embeds alert areas into markdown files as inline html.
+So, I've written a little script which embeds alert areas into markdown files as html.
 
 ## How to use script
 
