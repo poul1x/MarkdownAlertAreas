@@ -117,7 +117,7 @@ def convert_to_html(content, styler):
     html = html.replace('<code>', f'<code style="{code_style}">')
     html = html.replace('<p>', f'<p style="margin: 0">')
 
-    return f'<div style="{alert_style}">{html}</div>'
+    return f'<div style="{alert_style}">{html}</div>\n'
 
 
 def main(filename_in, filename_out):
@@ -142,6 +142,8 @@ def main(filename_in, filename_out):
             of.write(html)
 
             print('\rProcessing item at: %i' % pos, end='')
+
+        of.write(content[pos:])
 
 
 def usage():
